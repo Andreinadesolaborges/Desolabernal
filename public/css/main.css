@@ -205,4 +205,32 @@ h3 {
     .padding-main-header {
         padding: 1.5rem;
     }
+
+    h1 {
+        font-family: 'Fraunces', serif;
+        font-size: 2rem;
+        line-height: 2.5rem;
+        text-align: center;
+    }
+    
+    h2 {
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 600;
+        font-size: 1.5rem;
+        line-height: 2rem;
+        text-align: center;
+    }
+    h3 {
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 1.5rem;
+        text-align: center;
+    }
+
+    .button-general{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
 }
