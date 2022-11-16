@@ -1,3 +1,10 @@
+/*reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; }
+  
+
 a {
     font-family: 'Work Sans', sans-serif;
     font-weight: 400;
@@ -8,6 +15,7 @@ p {
     font-weight: 400;
     font-size: 1rem;
     line-height: 1.5rem;
+    margin-bottom: 0.1rem;
 }
 
 h1 {
@@ -38,6 +46,23 @@ h4 {
     line-height: 2.5rem;
     margin-bottom: 30px;
 }
+h5 {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-variant: small-caps;
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+.color-complementario{
+    color: #DBB349;
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+.color-complementario:hover{
+    color: white;
+}
 
 .btn {
     padding: 30px;
@@ -50,6 +75,11 @@ h4 {
 
 .linea-negra {
     border-top: 1px solid black;
+    opacity: 1;
+    margin: 2rem 0;
+}
+.linea-blanca {
+    border-top: 1px solid white;
     opacity: 1;
     margin: 2rem 0;
 }
@@ -248,6 +278,31 @@ i {
     border: 1px solid #E8E8E8;
 }
 
+.boton-footer{
+    margin: 0px;
+    width: 100%;
+    background-color: #DBB349;
+    color: white;
+    transition: all 900ms cubic-bezier(0.48, 0, 0.12, 1);
+}
+
+.boton-footer:hover {
+    background-color: #DBB349;
+    color: white;
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+    box-shadow: 0 8px 50px #23232333;
+}
+
+footer {
+width: 100%;
+}
+
+.no-top {
+    padding-top: 0px !important;
+}
+
 /* Media Queries */
 @media screen and (max-width: 767px) {
     .header {
@@ -291,6 +346,12 @@ i {
         line-height: 2rem;
         text-align: center;
         margin-bottom: 20px;
+    }
+
+    h5{
+        font-size: 1rem;
+        line-height: 1.5rem;
+        text-align: center;
     }
 
     p{
