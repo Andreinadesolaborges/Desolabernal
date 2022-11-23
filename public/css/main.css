@@ -504,6 +504,24 @@ footer {
     text-underline-position: under;
 }
 
+.carrusel{
+    height: 400px;
+}
+
+.carrusel-height{
+    height: 300px;
+}
+
+.carousel-indicators [data-bs-target]{
+    height: 12px;
+    width: 12px;
+    margin-left: 6px;
+    margin-right: 6px;
+    border-radius: 50%;
+}
+
+
+
 /* Media Queries */
 
 @media screen and (max-width:960px) {
