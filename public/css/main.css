@@ -322,6 +322,26 @@ footer {
     height: 600px;
 }
 
+.bg-service {
+    background-image: url("../img/bg-service.png");
+    background-size: cover;
+    background-position: center center;
+    height: 600px;
+}
+
+.bg-legal {
+    background-image: url("../img/bg-legal.png");
+    background-size: cover;
+    background-position: center center;
+    height: 300px;
+}
+.bg-legal-2 {
+    background-image: url("../img/bg-inmo.png");
+    background-size: cover;
+    background-position: center center;
+    height: 300px;
+}
+
 .padding-0 {
     padding: 0px;
 }
@@ -582,9 +602,10 @@ footer {
     }
 
     .bg-about {
-        background-image: url("../img/bg-about.png");
-        background-size: cover;
-        background-position: center center;
+        height: 300px;
+    }
+
+    .bg-service {
         height: 300px;
     }
 
