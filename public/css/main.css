@@ -349,7 +349,7 @@ footer {
 .margin-bp {
     margin-top: 50px;
 }
-.padding-bp-bottom {
+.margin-bp-bottom {
     margin-bottom: 50px;
 }
 
@@ -476,6 +476,23 @@ footer {
     font-size: .8rem;
 }
 
+
+
+.card-email {
+    font-family: 'Work Sans', sans-serif;
+    color: #859ba8;
+    font-size: .7rem;
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+.card-email:hover {
+    font-family: 'Work Sans', sans-serif;
+    color: black;
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
 /*Hover*/
 .card:hover {
     box-shadow: 0 8px 50px #23232333;
@@ -520,7 +537,82 @@ footer {
     border-radius: 50%;
 }
 
+.btnEnviar {
+    padding: 20px;
+    border-radius: 1px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    font-variant: small-caps;
+    background: black;
+    color: white;
+    margin-top: 2rem;
+    border: none;
+    width: 25%;
+}
 
+.btnBorrar {
+    padding: 20px;
+    border-radius: 1px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    font-variant: small-caps;
+    background: #859ba8;
+    color: white;
+    margin-top: 2rem;
+    border: none;
+    width: 25%;
+}
+
+/*Formulario*/
+.anchoFormulario {
+    width: 100%; 
+}
+
+input {
+    text-align: left;
+    font-size: 1rem;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    line-height: 1.5rem;
+    background-color: rgba(255, 255, 255, 0);
+    border-color: rgba(255, 255, 255, 0);
+    padding-bottom: 1rem;
+    padding-top: 0.5rem;
+    border-bottom: 0.125rem solid rgb(0, 0, 0);
+    width: 50%;
+    margin-top: 1rem;
+}
+input:focus-visible {
+    outline: rgb(238, 238, 238) auto 1px;  
+    padding-left: 0.5rem;
+    transition: all 400ms cubic-bezier(0.48, 0, 0.12, 1);
+    
+}
+textarea{
+    text-align: left;
+    font-size: 1rem;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    line-height: 1.5rem;
+    background-color: rgba(255, 255, 255, 0);
+    border-color: rgba(255, 255, 255, 0);
+    padding-bottom: 1rem;
+    padding-top: 0.5rem;
+    border-bottom: 0.125rem solid rgb(0, 0, 0);
+    width: 50%;
+    margin-top: 1rem;
+}
+textarea:focus-visible {
+    outline: rgb(238, 238, 238) auto 1px;
+    padding-left: 0.5rem;
+    transition: all 400ms cubic-bezier(0.48, 0, 0.12, 1);
+}
 
 /* Media Queries */
 

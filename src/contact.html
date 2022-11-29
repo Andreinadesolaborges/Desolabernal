@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -51,13 +52,44 @@
         </nav>
     </header>
     <main>
-        Contáctanos
+        <div class="container-fluid">
+            <div class="row d-flex align-items-center ">
+                <div class="col-12 col-md-10 offset-md-1 text-center bg-white  style-box margin-bp-bottom">
+                    <div class="col-12 text-center">
+                        <h2 class="margin-bp">contáctanos</h2>
+                        <form id="form" action="https://api.web3forms.com/submit" method="POST">
+                            <fieldset>
+                                <input type="hidden" name="access_key" value="3bf4d2bf-2f1f-4fb5-82fe-61c644e8cce3">
+                                <p class="margin-bp-bottom">Escríbenos cualquier duda o consulta</p>
+                                <div class="anchoFormulario">
+                                    <input class="estiloForm" required type="text" id="name" name="Nombre"
+                                        placeholder="Nombre">
+                                </div>
+                                <div class="anchoFormulario">
+                                    <input required type="email" id="email" name="Email" placeholder="Email">
+                                </div>
+                                <div class="anchoFormulario">
+                                    <textarea type="text" name="Mensaje" placeholder="Mensaje" required></textarea>
+                                </div>
+                                <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+                                <input type="hidden" name="redirect" value="https://web3forms.com/success">
+                                <div class="anchoFormulario margin-bp-bottom">
+                                    <input type="submit" value="envialo" class="btnEnviar">
+                                    <input type="reset" value="borrar" class="btnBorrar">
+                                </div>
+
+                            </fieldset>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
     <footer class="container-fluid">
         <div class="row d-flex align-items-center bg-black p-4 no-top">
             <div class="col-12 col-md-8 offset-md-2 text-center">
-                <a href="contact.html"> <button type="button" class="btn boton-footer"><span
-                            class="text">contactanos ahora y haz tu
+                <a href="contact.html"> <button type="button" class="btn boton-footer"><span class="text">contactanos
+                            ahora y haz tu
                             consulta</span></button></a>
             </div>
         </div>
@@ -94,4 +126,5 @@
         crossorigin="anonymous"></script>
     <script src="../app.js"></script>
 </body>
+
 </html>
