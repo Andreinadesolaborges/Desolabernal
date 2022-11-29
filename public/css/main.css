@@ -725,6 +725,18 @@ textarea:focus-visible {
         width: 160px;
         
     }
+    input{
+        width: 80%;
+    }
+    textarea {
+        width: 80%;
+    }
+    .btnEnviar{
+        width: 40%;
+    }
+    .btnBorrar{
+        width: 40%;
+    }
 }
 
 @media screen and (max-width: 575px) {
