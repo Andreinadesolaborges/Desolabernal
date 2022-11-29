@@ -505,11 +505,11 @@ footer {
 }
 
 .carrusel{
-    height: 400px;
+    height: 500px;
 }
 
 .carrusel-height{
-    height: 300px;
+    height: 400px;
 }
 
 .carousel-indicators [data-bs-target]{
